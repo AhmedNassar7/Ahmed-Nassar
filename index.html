@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Nassar - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/icon.ico" type="image/ico">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="nav-left">
+            <a href="#" class="logo" onclick="refreshPage()">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="nav-center">
+            <a class="smoothscroll" href="#home">Home</a>
+            <a class="smoothscroll" href="#about">About</a>
+            <a class="smoothscroll" href="#resume">Resume</a>
+            <a class="smoothscroll" href="#contact">Contact</a>
+        </div>
+        <!--
+        <div class="nav-right">
+            <div class="theme-switcher" onclick="toggleThemeOptions()">Theme</div>
+            <div class="theme-options" id="themeOptions">
+                <div class="theme-option" onclick="setTheme('default')">Default Theme</div>
+                <div class="theme-option" onclick="setTheme('light')">Light Theme</div>
+                <div class="theme-option" onclick="setTheme('dark')">Dark Theme</div>
+            </div>
+            <button id="sign-in-btn" onclick="toggleAuth()">Sign in</button>
+        </div>
+        -->
+    </nav>
+    <header id="home">
+        <div class="header-content">
+            <div class="left-section">
+                <img src="images/home.png" alt="Ahmed Nassar" class="header-image">
+            </div>
+            <div class="right-section">
+                <div class="header-text">
+                    <div class="profile-views">
+                        <div class="profile-view-item">
+                            <span class="label">Portfolio Viewers:</span>
+                            <span class="count" id="viewers-count">0</span>
+                        </div>
+                    </div>
+                    <p class="intro">Hi, my name is</p>
+                    <h1>Ahmed Nassar</h1>
+                    <div class="typing-container">
+                        <div id="typing"></div>
+                        <p class="description">I’m a passionate <span class="job-title">Sofware Engineer</span> & <span
+                                class="job-title">Web Developer</span> from Egypt</p>
+                    </div>
+                    <div class="typing-line"></div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nasssar/" target="_blank"><img src="images/linkedin.png"
+                                alt="LinkedIn"></a>
+                        <a href="https://github.com/AhmedNassar7" target="_blank"><img src="images/github.webp"
+                                alt="GitHub"></a>
+                        <a href="https://fb.com/profile.php?id=100004270350132"><img src="images/facebook.png"
+                                alt="Facebook"></a>
+                        <a href="https://www.instagram.com/ahmed_nassar__" target="_blank"><img
+                                src="images/instagram.png" alt="Instagram"></a>
+                        <a href="https://wa.me/0201110102554" target="_blank"><img src="images/whatsapp.png"
+                                alt="WhatsApp"></a>
+                        <a href="https://t.me/nassarrrr" target="_blank"><img src="images/telegram.png" alt="Telegram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="scroll-btn" href="#about">
+            <img src="images/down.png" alt="Down-Button" width="30" height="30">
+        </a>
+    </header>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2 class="section-title">About</h2>
+            <div class="subsection">
+                <h3 class="subsection-title">About Me</h3>
+                <ul>
+                    <li><img src="images/About/osc.png" alt="OSC"> Web Developer @ <a
+                            href="https://web.facebook.com/oscgeeks/?_rdc=1&_rdr" class="company-link"><b>Open Source
+                                Community</b></a></li>
+                    <li><img src="images/About/nokia.png" alt="Nokia"> Former Software Engineer Intern @ <a
+                            href="https://www.nokia.com/" class="company-link"><b>Nokia</b></a></li>
+                    <li><img src="images/About/misr.png" alt="Banque Misr"> Former IT Intern at @ <a
+                            href="https://www.banquemisr.com/" class="company-link"><b>Banque
+                                Misr</b></a></li>
+                    <li><img src="images/About/cib.png" alt="CIB"> Former Intern at @ <a href="https://www.cibeg.com/"
+                            class="company-link"><b>CIB</b></a></li>
+                    <li><img src="images/About/modern.png" alt="Modern Academy"> Junior Computer Science Student @ <a
+                            href="https://mng.modern-academy.edu.eg/" class="company-link"><b>Modern Academy</b></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="subsection">
+                <h3 class="subsection-title">Contact Details</h3>
+                <ul>
+                    <li><img src="images/About/student.png" alt="Ahmed Nassar"><b>Ahmed Nassar</b></li>
+                    <li><img src="images/About/gmail.png" alt="Gmail"><b>a.moh.nassar00@gmail.com</b></li>
+                    <li><img src="images/About/phone.png" alt="Phone"><b>+201110102554</b></li>
+                    <li><img src="images/About/location.png" alt="location"><b>Cairo, Egypt</b></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="subsection">
+                    <h3 class="subsection-title">Objective</h3>
+                    <p>A top-performing third-year Computer Science student with a stellar GPA of 3.9. Experienced in
+                        C++, Python, Java, HTML, CSS, JavaScript, and React.js. Strong foundation in OOP, Databases, OS,
+                        Data Structures, and Algorithms. Skilled in problem-solving, leadership, teamwork, and
+                        communication.</p>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Experience</h3>
+                    <div class="experience-item">
+                        <div class="company-position">
+                            <div class="company">Nokia</div>
+                            <div class="position">Software Engineer Intern</div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">Aug 2023 - Oct 2023</div>
+                            <div class="location">Remotely</div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Led a team of 9 interns in implementing a Python-based automated system for detecting
+                                and resolving code vulnerabilities, 30% reducing detection time, and 25% enhancing
+                                security measures resulting in a 40% increase in user engagement and a 95% stakeholder
+                                approval.</li>
+                            <li>Developed expertise in web development using React.js, and Django.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <div class="company-position">
+                            <div class="company">Banque Misr</div>
+                            <div class="position">IT Intern</div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">Jul 2023 - Aug 2023</div>
+                            <div class="location">Cairo, Egypt</div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Assisted 20+ customers daily with technical challenges, achieving a 90% resolution rate,
+                                reducing support ticket backlog by 28%, and maintaining a 4.7/5 satisfaction rating.
+                            </li>
+                            <li>Developed expertise in banking software, hardware components, and troubleshooting
+                                techniques.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Volunteering</h3>
+                    <div class="experience-item">
+                        <div class="company-position">
+                            <div class="company">Open Source Community</div>
+                            <div class="position">Web Developer</div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">Sep 2023 - present</div>
+                            <div class="location">Cairo, Egypt</div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Contributed to open-source projects, and collaborated with experienced developers.
+                            </li>
+                            <li>Led 5 workshops and organized 2 hackathons at Ain Shams University.</li>
+                            <li>Conducted code testing and bug fixing, ensuring the delivery of high-quality
+                                software.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <div class="company-position">
+                            <div class="company">SemiColon</div>
+                            <div class="position">Programming Instructor</div>
+                        </div>
+                        <div class="date-location">
+                            <div class="date">Jan 2023 - Aug 2023</div>
+                            <div class="location">Cairo, Egypt</div>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Mentored 100 students in Problem-Solving to compete in ICPC competitions.</li>
+                            <li>Delivered 20+ sessions on C++, Data Structures, and Algorithms.</li>
+                            <li>Developed 40+ educational content, including materials, resources, and tasks.</li>
+                            <li>Led the recruitment process, conducting 30+ technical interviews for applicants.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Education</h3>
+                    <div class="education-item">
+                        <h4>Bachelor of Computer Science, Modern Academy</h4>
+                        <span class="education-date-location">Sep 2021 – Jun 2025 | Cairo, Egypt</span>
+                        <p><strong>GPA:</strong> 3.9/4.0</p>
+                        <p><strong>Coursework:</strong> Databases, OOP, Data Structures, Algorithms, Operating Systems
+                        </p>
+                    </div>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Projects</h3>
+                    <div class="project-item">
+                        <h4>Weather Application</h4>
+                        <span class="project-date">Dec 2023</span>
+                        <p>Designed a weather application using React and Material-UI, integrating an open API for
+                            real-time weather data retrieval and user-friendly presentation.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Pizza Ordering System</h4>
+                        <span class="project-date">Apr 2023</span>
+                        <p>Developed a Java-based system using OOP and SQL for the database, and Java Swing for the GUI.
+                            Implemented Data Structure & Algorithms for information retrieval based on name or ID.</p>
+                    </div>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Skills</h3>
+                    <p><strong>Programming Languages:</strong> C++, Python, Java, JavaScript, TypeScript, SQL, HTML, CSS
+                    </p>
+                    <p><strong>Frameworks and Libraries:</strong> React.js, Bootstrap, jQuery, GraphQL, Firebase</p>
+                    <p><strong>Tools and Platforms:</strong> Git, GitHub, AWS, Docker, Linux, Microsoft Office (Excel,
+                        PowerPoint)</p>
+                    <p><strong>Technical Skills:</strong> Design Patterns, Clean Code, Unit Testing</p>
+                    <p><strong>Soft Skills:</strong> Teamwork, Leadership, Communication, Problem-Solving, Quick Learner
+                    </p>
+                    <p><strong>Languages:</strong> Arabic C2(Native), English C1(Advanced), German B1(Intermediate)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <form action="send_email.php" method="post">
+                <input type="text" name="name" placeholder="Your Name or Empty">
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/nasssar/"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/AhmedNassar7"><img src="images/github.webp" alt="GitHub"></a>
+                <a href="mailto:a.moh.nassar00@gmail.com"><img src="images/gmail.png" alt="Gmail"></a>
+                <a href="https://fb.com/profile.php?id=100004270350132"><img src="images/facebook.png"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/ahmed_nassar__"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/0201110102554"><img src="images/whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://telegram.org/"><img src="images/telegram.png" alt="Telegram"></a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="quotes-container">
+                <div class="quote active">
+                    <p class="quote-text">"Talk is cheap. Show me the code."<span class="author"> - Linus
+                            Torvalds</span></p>
+                </div>
+                <div class="quote">
+                    <p class="quote-text">"Programs must be written for people to read, and only incidentally for
+                        machines to execute."<span class="author"> - Harold Abelson</span></p>
+                </div>
+                <div class="quote">
+                    <p class="quote-text">"Simplicity is the soul of efficiency."<span class="author"> - Austin
+                            Freeman</span></p>
+                </div>
+                <div class="quote">
+                    <p class="quote-text">"First, solve the problem. Then, write the code."<span class="author"> - John
+                            Johnson</span></p>
+                </div>
+                <div class="quote">
+                    <p class="quote-text">"Code is like humor. When you have to explain it, it’s bad."<span
+                            class="author"> - Cory House</span></p>
+                </div>
+            </div>
+            <div class="quote-indicators">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </footer>
+
+        <script src="js/scripts.js"></script>
+        <script src="js/firebase.js"></script>
+        <script src="js/theme.js"></script>
+
+</body>
+
+</html>
