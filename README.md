@@ -12,6 +12,6 @@ To view or modify the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/AhmedNassar7/Ahmed-Nassar.git
 
 2. run the index.html file
