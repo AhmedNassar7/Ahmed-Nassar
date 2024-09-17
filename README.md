@@ -14,4 +14,4 @@ To view or modify the project locally:
    ```bash
    git clone https://github.com/AhmedNassar7/Ahmed-Nassar.git
 
-2. run the index.html file
+2. open the index.html file
