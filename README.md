@@ -5,7 +5,6 @@ Welcome to my **Personal Website**! This project showcases my skills in web deve
 ## Technologies
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend/Hosting**: Firebase
 
 ## Setup
 
